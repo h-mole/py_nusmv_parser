@@ -1,0 +1,10 @@
+[project]
+name = "py-nusmv-parser"
+version = "0.1.0alpha"
+dependencies = ["dataclasses_json", "ply"]
+requires-python = ">= 3.10"
+
+[tool.autoflake]
+check = true
+expand_star_imports = true
+remove_all_unused_imports = true
